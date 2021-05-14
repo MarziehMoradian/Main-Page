@@ -1,0 +1,242 @@
+
+body{
+  margin:0;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+.header{
+  width:100%;
+  height:120px;
+  background-color: #ffff;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(202, 201, 202);
+  border:none;
+}
+.nav{
+  
+  width: 100%;
+  height:15%;
+  background-color: #45A132;
+}
+.btn--logo{
+  background-color:#45A132 ;
+  width: 170px;
+  height:40px;
+  border-radius: 25px;
+  color: #f5f5f5;
+  border:none;
+  outline: none;
+  margin-top:23px;
+  margin-left:12%;
+  opacity: 0.9;
+  font-family: "IranSanse";
+  font-size: 18px;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 30%);
+}
+.links--header{
+  position: absolute;
+  margin-left:55%;
+  margin-top:55px;
+}
+.links--header a:active{
+  border-radius: 15px;
+  background-color: rgb(18, 143, 18);
+  opacity: 0.7;
+  border:1px solid rgb(43, 88, 4);
+  color: #f2f2f2;
+}
+.links--header a{
+  width:100px;
+  text-decoration-line: none;
+  color: rgb(56, 55, 55);
+  padding:5px 20px;
+  font-size: 18px;
+  
+}
+.links--header a:hover{
+
+  border-radius: 15px;
+  background-color: rgb(18, 143, 18);
+  opacity: 0.7;
+  border:1px solid rgb(43, 88, 4);
+  color: #f2f2f2;
+  transition: color .8s;
+}
+.img--logo{
+  height: 70px;
+  width:70px;
+  float: right;
+  margin-top:25px;
+  margin-right: 10%;
+}
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width:50%;
+  margin:auto;
+  margin-top: 30px;
+  
+}
+.coinImg{
+  width: 70px;
+  height:70px;
+  margin-left: 45px;
+  margin-top: 50px;
+  
+}
+.groupImg{
+  width: 70px;
+  height:70px;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+.leafImg{
+  width: 70px;
+  height:70px;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+
+.img{
+  width: 170px;
+  height:170px;
+  background-color:rgb(255, 208, 0);
+  border-radius: 50%;
+}
+.column p{
+  text-align: center;
+  color:rgb(61, 61, 61);
+  font-size: 20px;
+}
+footer{
+  background-color: #f2f2f2;
+}
+
+.footerMain{
+  width: 85%;
+  height:400px;
+  margin:100px auto 0;
+  
+}
+.mainFoot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin:auto;
+}
+.card{
+  background-color: #ffffff;
+  margin:48px;
+  padding:16px;
+  width:23.3%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgb(202, 201, 202); 
+  position: relative;
+
+  
+}
+.card img{
+  width: 70px;
+  height: 70px;
+}
+.card a{
+  text-decoration-line: none;
+  color:#45a132 ;
+  margin:46px;
+  padding:20px;
+  text-align: center;
+}
+
+h1{
+  padding-top:50px;
+  text-align: center;
+  color: #45a132;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'IranSanseBold';
+}
+.nav--card{
+  display: none;
+  width:100%;
+  height:15px;
+  bottom: 0;
+  background-color: green;
+  /* margin-bottom:-100px; */
+  margin-left: -15px;
+  position: absolute;
+  border-radius:0 0 20px 20px;
+  opacity:0.8;
+}
+
+.btn--hamber{
+  display:none;
+
+}
+.dropDown:{
+  display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .btn--logo{
+    background-color:#45A132 ;
+    width: 170px;
+    height:40px;
+    border-radius: 25px;
+    color: #f5f5f5;
+    border:none;
+    outline: none;
+    margin-top:23px;
+    margin-left:12%;
+    opacity: 0.9;
+    font-family: "IranSanse";
+    font-size: 18px;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 30%);
+  }
+  .links--header{
+    position: absolute;
+    margin-left:55%;
+    margin-top:55px;
+  }
+  .links--header a:active{
+    border-radius: 15px;
+    background-color: rgb(18, 143, 18);
+    opacity: 0.7;
+    border:1px solid rgb(43, 88, 4);
+    color: #f2f2f2;
+  }
+  .links--header a{
+    width:100px;
+    text-decoration-line: none;
+    color: rgb(56, 55, 55);
+    padding:5px 20px;
+    font-size: 18px;
+    
+  }
+  .card{
+    background-color: #ffffff;
+    margin:48px;
+    padding:16px;
+    width:50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(202, 201, 202); 
+    position: relative;
+  
+    
+  }
+  .main{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+    width:50%;
+    margin:auto;
+    margin-top: 30px;
+    
+  }
+      
+}
