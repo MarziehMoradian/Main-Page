@@ -9,21 +9,25 @@ import React from "react";
 const Header = (props) => {
     let lable="فروشگاه من";
     return (
-       <header className="header">
+        <header className="header" id="hamnav">
+           <Nav />
+           <label for="hamburger">&#9776;</label>
+           <input type="checkbox" id="hamburger"/>
            <Img classes="img--logo"/>
-          {/* <div className="img--logo">
-          </div> */}
 
-           <div className="links--header">
+           <div className="links--header" id="hamitems">
+            
                <a href="">درباره ما</a>
                <a href="">کسب وکار</a>
                <a href=""> پشتیبانی </a>
                <a href=""> سوالات متداول </a>
+            
+            <Button buttonLabel={lable} />
            </div>
            
+         
+            
            
-        <Nav />
-        <Button buttonLabel={lable} />
         
         </header>
     );
